@@ -1,0 +1,40 @@
+.formBox {
+  color: #f2f2f2;
+  background-color: #473e96;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border-radius: 20px;
+}
+
+.formBox form {
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  justify-items: start;
+}
+
+.formBox form label {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  padding: 2rem;
+}
+
+.formBox form label input {
+  margin-left: 2rem;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+
+.formBox form .button {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5rem;
+  width: 80%;
+  -ms-grid-column-align: center;
+      justify-self: center;
+  margin-left: 0;
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+}
+/*# sourceMappingURL=form.css.map */
