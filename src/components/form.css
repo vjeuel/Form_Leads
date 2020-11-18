@@ -12,16 +12,15 @@
   display: grid;
   -ms-grid-columns: 1fr;
       grid-template-columns: 1fr;
-  justify-items: start;
+  justify-items: center;
 }
 
-.formBox form label {
+.formBox form input {
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5rem;
+  width: 80%;
   padding: 2rem;
-}
-
-.formBox form label input {
+  margin: 2rem;
   margin-left: 2rem;
   padding: 1rem 2rem;
   border-radius: 1rem;
@@ -31,8 +30,6 @@
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.5rem;
   width: 80%;
-  -ms-grid-column-align: center;
-      justify-self: center;
   margin-left: 0;
   padding: 1rem 2rem;
   border-radius: 1rem;

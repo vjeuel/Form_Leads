@@ -9,25 +9,23 @@
 	form {
 		display: grid;
 		grid-template-columns: 1fr;
-		justify-items: start;
+		justify-items: center;
 
-		label {
+		input {
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			font-size: 1.5rem;
+			width: 80%;
 			padding: 2rem;
-
-			input {
-				margin-left: 2rem;
-				padding: 1rem 2rem;
-				border-radius: 1rem;
-			}
+			margin: 2rem;
+			margin-left: 2rem;
+			padding: 1rem 2rem;
+			border-radius: 1rem;
 		}
 
 		.button {
 			font-family: Verdana, Geneva, Tahoma, sans-serif;
 			font-size: 1.5rem;
 			width: 80%;
-			justify-self: center;
 			margin-left: 0;
 			padding: 1rem 2rem;
 			border-radius: 1rem;
